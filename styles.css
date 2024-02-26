@@ -13,7 +13,7 @@ body {
 
 header, footer {
   background-color: #223843; /* Renk paletindeki koyu mavi */
-  color: #eff1f3; /* Beyaz */
+  color: #fff; /* Beyaz */
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -59,8 +59,8 @@ nav ul li a {
 
 section {
   padding: 20px;
-  background-color: #eff1f3; /* Orta tonlu turkuaz */
-  color: #223843; /* Beyaz-krem */
+  background-color: #eff1f300; /* Orta tonlu turkuaz */
+  color: #fff; /* Beyaz-krem */
 }
 
 .member {
@@ -77,6 +77,8 @@ section {
 
 /* Chip container */
 .chip-container {
+  position: fixed;
+  align-items: center;
   display: flex;
   overflow-x: auto; /* Yatay kaydırma */
   gap: 10px; /* Chip'ler arasında boşluk */
@@ -90,7 +92,7 @@ section {
   background-color: #f0f0f0; /* Chip arka plan rengi */
   border-radius: 20px; /* Yuvarlatılmış köşeler */
   padding: 10px 20px; /* İçeriği çerçeveye hizalamak için boşluklar */
-  cursor: pointer; /* Farenin üstüne gelince imleç el işareti olur */
+  cursor: grabbing; /* Farenin üstüne gelince imleç el işareti olur */
 }
 
 .chip img {
@@ -103,6 +105,9 @@ section {
 /* Chip içeriği */
 .chip .info {
   flex: 1; /* İçeriğin genişliği */
+}
+.info {
+  color: #223843;
 }
 
 .chip h3, .chip p {
