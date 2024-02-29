@@ -1,0 +1,1 @@
+Website for a tech team. I created a organization for this so this repository will be transfered to @axolotlagatsuma aka. my main or the organization and I'll delete this account - AnkaKuslari -. :wave:
